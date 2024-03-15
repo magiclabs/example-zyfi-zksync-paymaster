@@ -46,7 +46,6 @@ const SendTransaction = () => {
       },
       body: JSON.stringify({
         "feeTokenAddress": "0xFD1fBFf2E1bAa053C927dc513579a8B2727233D8",
-        "gasLimit": "500000",
         "isTestnet": true,
         "txData": {
           "from": publicAddress,
